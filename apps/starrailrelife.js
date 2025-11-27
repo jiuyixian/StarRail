@@ -75,7 +75,7 @@ export class starrailrelife extends plugin {
         userIcon: `http://q2.qlogo.cn/headimg_dl?dst_uin=${e.user_id}&spec=5`,
         // 角色详细信息（来自identity.yaml）
         allegiance: identity.allegiance,
-        weapon: identity.weapon,
+        type: identity.type,
         desc: identity.desc,
         color,
         // 图片资源
