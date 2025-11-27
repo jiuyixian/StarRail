@@ -1,0 +1,678 @@
+#- id: 角色id
+#  key: 角色英文名
+#  name: 角色名
+#  star: 星级
+#  elem: 属性
+#  allegiance: 阵营/派系
+#  weapon: 命途
+#  desc: 身份/描述/介绍
+
+- id: 1001
+  key: mar7th
+  name: 三月七
+  star: 4
+  elem: 冰
+  allegiance: 星穹列车
+  type: 存护
+  desc: 一度沉睡于恒冰，对过去一无所知的少女。 为了寻找身世的真相，选择与星穹列车同行。 目前为自己准备了约六十七种「身世故事」。
+- id: 1002
+  key: danheng
+  name: 丹恒
+  star: 4
+  elem: 风
+  allegiance: 星穹列车
+  type: 巡猎
+  desc: 对自己的过去讳莫如深，清冷寡言的青年。 为了躲避血裔同族，选择与星穹列车同行。
+- id: 1003
+  key: himeko
+  name: 姬子
+  star: 5
+  elem: 火
+  allegiance: 星穹列车
+  type: 智识
+  desc: 星穹列车的修复者。 为了见证广阔的星空，选择与星穹列车同行。 爱好是制作手调咖啡。
+- id: 1004
+  key: welt
+  name: 瓦尔特
+  star: 5
+  elem: 虚数
+  allegiance: 星穹列车
+  type: 虚无
+  desc: 老成持重的列车组前辈。 享受着久违的冒险奇遇，心底埋藏的热血再度燃烧。 偶尔还会将经历的冒险旅程画在本子里。
+- id: 1005
+  key: kafka
+  name: 卡芙卡
+  star: 5
+  elem: 雷
+  allegiance: 星核猎手
+  type: 虚无
+  desc: 「星核猎手」的成员，潇洒从容的职业装丽人。利用言灵术，设计令开拓者吸收星核。爱好是购买及整理大衣。
+- id: 1006
+  key: silverwolf
+  name: 银狼
+  star: 5
+  elem: 量子
+  allegiance: 星核猎手
+  type: 虚无
+  desc: 「星核猎手」的成员，骇客高手。将宇宙视作大型沉浸式模拟游戏，玩乐其中。掌握了能够修改现实数据的「以太编辑」。
+- id: 1008
+  key: arlan
+  name: 阿兰
+  star: 4
+  elem: 雷
+  allegiance: 空间站「黑塔」
+  type: 毁灭
+  desc: 空间站「黑塔」的防卫科负责人。 不善言辞，希望保护珍视研究的人们顺利完成他们的研究。
+- id: 1009
+  key: asta
+  name: 艾丝妲
+  star: 4
+  elem: 火
+  allegiance: 空间站「黑塔」
+  type: 同谐
+  desc: 空间站「黑塔」的站长，出身名门的大小姐。 好奇心旺盛的天文研究者，擅长管理空间站各抒己见的科员。
+- id: 1013
+  key: herta
+  name: 黑塔
+  star: 4
+  elem: 冰
+  allegiance: 空间站「黑塔」
+  type: 智识
+  desc: 「天才俱乐部」#83号会员，空间站的真正主人。 智慧过人却毫无同理心的大科学家。
+- id: 1014
+  key: saber
+  name: Saber
+  star: 5
+  elem: 风
+  allegiance: ？？？
+  type: 毁灭
+  desc: 孤独的英灵走过命运的长夜， 圆桌的旗帜仍在梦中舒展。卡美洛的骑士之王，此时尚未抵达理想乡。仍是少女的她于这场特殊的「圣杯战争」中应召前来，当再度面临石中剑的抉择，她将如何突破过往的幻境？——「我未实现的愿望，也将在此作结。」
+- id: 1015
+  key: archer
+  name: Archer
+  star: 5
+  elem: 量子
+  allegiance: ？？？
+  type: 巡猎
+  desc: 绝望轮番上演于过去与未来之间，无数理想曾在红色圣骸布之间燃尽。但，请别被这一抹灰烬欺骗——若是有人假借理想之名营造虚幻的美梦，他必将再度燃烧，与世间的伪善战斗到底。无论身在何处，他始终是正义的伙伴。
+- id: 1101
+  key: bronya
+  name: 布洛妮娅
+  star: 5
+  elem: 风
+  allegiance: 贝洛伯格
+  type: 同谐
+  desc: 贝洛伯格「大守护者」的继承人。 兼有公主的高傲和军人的坚贞。
+- id: 1102
+  key: seele
+  name: 希儿
+  star: 5
+  elem: 量子
+  allegiance: 贝洛伯格
+  type: 巡猎
+  desc: 地底反抗组织「地火」的骨干，别号「蝴蝶」。 性格率真直爽，内心隐藏着细腻敏锐的一面。
+- id: 1103
+  key: serval
+  name: 希露瓦
+  star: 4
+  elem: 雷
+  allegiance: 贝洛伯格
+  type: 智识
+  desc: 贝洛伯格的机械师，曾任筑城者技术部研究员。 身为杰帕德•朗道的姐姐，性格却与弟弟截然不同。 钟爱大寒潮前一种名为「摇滚」的古老音乐艺术。
+- id: 1104
+  key: gepard
+  name: 杰帕德
+  star: 5
+  elem: 冰
+  allegiance: 贝洛伯格
+  type: 存护
+  desc: 银鬃铁卫的戍卫官，贝洛伯格数一数二的战士。 表里如一，一丝不苟，从不懈怠。
+- id: 1105
+  key: natasha
+  name: 娜塔莎
+  star: 4
+  elem: 物理
+  allegiance: 贝洛伯格
+  type: 丰饶
+  desc: 贝洛伯格下层区的医生，也是孩子们的照料者。 性格温柔可亲、又藏着危险的一面。
+- id: 1106
+  key: pela
+  name: 佩拉
+  star: 4
+  elem: 冰
+  allegiance: 贝洛伯格
+  type: 虚无
+  desc: 银鬃铁卫的书记官。 性格认真，深受铁卫成员们敬畏。
+- id: 1107
+  key: clara
+  name: 克拉拉
+  star: 5
+  elem: 物理
+  allegiance: 贝洛伯格
+  type: 毁灭
+  desc: 与机械生活在一起的流浪少女。 内向、温柔，有一颗纯粹的心。 渴望下层区的大家都能成为彼此的「家人」。
+- id: 1108
+  key: sampo
+  name: 桑博
+  star: 4
+  elem: 风
+  allegiance: 贝洛伯格
+  type: 虚无
+  desc: 地表和地底之间来去自如的行商。 自来熟，热情幽默，习惯插科打诨。
+- id: 1109
+  key: hook
+  name: 虎克
+  star: 4
+  elem: 火
+  allegiance: 贝洛伯格
+  type: 毁灭
+  desc: 地底冒险团队「鼹鼠党」的老大（自封）。 热爱自由，将生活视为一场又一场冒险。
+- id: 1110
+  key: lynx
+  name: 玲可
+  star: 4
+  elem: 量子
+  allegiance: 贝洛伯格
+  type: 丰饶
+  desc: 贝洛伯格的雪原探险家，朗道家的小妹妹。 性格淡定，行动力极强。常常孤身前往雪原探险。
+- id: 1111
+  key: luka
+  name: 卢卡
+  star: 4
+  elem: 物理
+  allegiance: 贝洛伯格
+  type: 虚无
+  desc: 贝洛伯格下层区的冠军拳手，「地火」的得力干将之一。 搏击俱乐部的蝉联冠军，以自身的热情激励着下层区有梦想的孩子们。
+- id: 1112
+  key: topaz
+  name: 托帕&账账
+  star: 5
+  elem: 火
+  allegiance: 星际和平公司
+  type: 巡猎
+  desc: 星际和平公司旗下「战略投资部」高级干部托帕，领导特殊债务纠察小组。 年纪轻轻便已成为「石心十人」之一，基石为「催讨黄玉」。 搭档次元扑满「账账」则能敏锐感知「财富」所在，即便是安保、催债、精算等工作也不在话下。
+    如今他们正一同巡行银河，追究各类影响公司业务开展的债务纠纷。
+- id: 1201
+  key: qingque
+  name: 青雀
+  star: 4
+  elem: 量子
+  allegiance: 仙舟「罗浮」
+  type: 智识
+  desc: 仙舟「罗浮」太卜司的卜者，兼书库管理员。 因工作一再偷闲摸鱼，即将贬无可贬成为「掌门人」。
+- id: 1202
+  key: tingyun
+  name: 停云
+  star: 4
+  elem: 雷
+  allegiance: 仙舟「罗浮」
+  type: 同谐
+  desc: 仙舟「罗浮」天舶司的接渡使。 随商团出使过众多世界，缔结贸易与盟谊。
+- id: 1203
+  key: luocha
+  name: 罗刹
+  star: 5
+  elem: 虚数
+  allegiance: 仙舟「罗浮」
+  type: 丰饶
+  desc: 随身携带着棺椁，自天之外海而来的化外行商。 医术精湛。
+- id: 1204
+  key: jingyuan
+  name: 景元
+  star: 5
+  elem: 雷
+  allegiance: 仙舟「罗浮」
+  type: 智识
+  desc: 仙舟联盟帝弓七天将之一，负责节制罗浮云骑军的「神策将军」。 师从前代「罗浮」剑首，但并不显名于武力。
+- id: 1205
+  key: blade
+  name: 刃
+  star: 5
+  elem: 风
+  allegiance: 星核猎手
+  type: 毁灭
+  desc: 「星核猎手」的成员，弃身锋刃的剑客。效忠于「命运的奴隶」，拥有可怖的自愈能力。
+- id: 1206
+  key: sushang
+  name: 素裳
+  star: 4
+  elem: 物理
+  allegiance: 仙舟「罗浮」
+  type: 巡猎
+  desc: 出生于仙舟「曜青」，前往「罗浮」云骑军接受历练的新兵。 身佩母亲赠予的家传剑器，憧憬着自己即将书写的未来。
+- id: 1207
+  key: yukong
+  name: 驭空
+  star: 4
+  elem: 虚数
+  allegiance: 仙舟「罗浮」
+  type: 同谐
+  desc: 仙舟「罗浮」天舶司的首领，久历战阵的飞行士与射手。 而今却陷于繁冗公务，难以抽身。
+- id: 1208
+  key: fuxuan
+  name: 符玄
+  star: 5
+  elem: 量子
+  allegiance: 仙舟「罗浮」
+  type: 存护
+  desc: 仙舟「罗浮」太卜司之首。 凭借第三眼与穷观阵为仙舟占算航路，预卜事务吉凶。
+- id: 1209
+  key: yanqing
+  name: 彦卿
+  star: 5
+  elem: 冰
+  allegiance: 仙舟「罗浮」
+  type: 巡猎
+  desc: 将军景元的侍卫，不过总角之年的御剑天才。 手中握剑，即立于不败之地。
+- id: 1210
+  key: guinaifen
+  name: 桂乃芬
+  star: 4
+  elem: 火
+  allegiance: 仙舟「罗浮」
+  type: 虚无
+  desc: 客居仙舟「罗浮」的行为艺术家——或者说，街头艺人。 在三餐温饱之余，追逐着自己在罗浮的新生活。
+- id: 1211
+  key: bailu
+  name: 白露
+  star: 5
+  elem: 雷
+  allegiance: 仙舟「罗浮」
+  type: 丰饶
+  desc: 仙舟「罗浮」持明族的尊长，有「衔药龙女」之称的医士。 以独门医理和唯有龙脉方可施行的「医疗手段」救死扶伤。
+- id: 1212
+  key: jingliu
+  name: 镜流
+  star: 5
+  elem: 冰
+  allegiance: 仙舟「罗浮」
+  type: 毁灭
+  desc: 曾经的罗浮剑首，云骑军不败盛名的缔造者。而今其名字已被抹去，成为行走于魔阴身边缘的仙舟叛徒。
+- id: 1213
+  key: danhengil
+  name: 丹恒•饮月
+  star: 5
+  elem: 虚数
+  allegiance: 仙舟「罗浮」
+  type: 毁灭
+  desc: 丹恒身为持明族的本相，其上一世「饮月君」所遗存的力量。 接受了额顶的峥嵘角冠，就要接受那罪人所立的一切功过。
+- id: 1214
+  key: xueyi
+  name: 雪衣
+  star: 4
+  elem: 量子
+  allegiance: 仙舟「罗浮」
+  type: 毁灭
+  desc: 仙舟「罗浮」上监察生死的机构「十王司」的判官。 早已身死道消多年，借偃偶身躯「还阳」，履行使命。
+- id: 1215
+  key: hanya
+  name: 寒鸦
+  star: 4
+  elem: 物理
+  allegiance: 仙舟「罗浮」
+  type: 同谐
+  desc: 仙舟「罗浮」十王司的判官之一。 受命十王，执掌冥谶天笔，读取罪业种种，并下达业报判罚。
+- id: 1217
+  key: huohuo
+  name: 藿藿
+  star: 5
+  elem: 风
+  allegiance: 仙舟「罗浮」
+  type: 丰饶
+  desc: 仙舟罗浮的十王司见习判官，被岁阳附身的狐人小女孩。 性格怯懦，弱小可怜，害怕种种怪异之事却肩负起勾摄邪魔的职责。
+- id: 1218
+  key: jiaoqiu
+  name: 椒丘
+  star: 5
+  elem: 火
+  allegiance: 仙舟「曜青」
+  type: 虚无
+  desc: 仙舟「曜青」的狐人医士、策士，常以笑脸迎人，实际颇有心计。 出身于丹鼎司名家，曾一度心死避世，不再行医，后为医治「天击将军」飞霄再度出山。 精于医食同源的丹方研究，尤其是能带给人痛感的辣味食物，发明了名为「九宫格」的鼎镬药式。
+- id: 1220
+  key: feixiao
+  name: 飞霄
+  star: 5
+  elem: 风
+  allegiance: 仙舟「曜青」
+  type: 巡猎
+  desc: 仙舟「曜青」的天击将军，帝弓七天将之一，为人不拘一格，率直潇洒。 精通百般武艺，炼化躯体至极致，享有「大捷将军」美名，深受仙舟军民爱戴。 但身负「月狂」之症，如要在时限内猎尽孽物——飞霄唯一的敌手，便是自己。
+- id: 1221
+  key: yunli
+  name: 云璃
+  star: 5
+  elem: 物理
+  allegiance: 仙舟「朱明」
+  type: 毁灭
+  desc: 仙舟「朱明」的猎剑士，备受「烛渊将军」怀炎宠爱的孙女，性格直率。 从小跟随怀炎学习剑艺与锻艺，乃「焰轮八叶」中次年幼的天才剑士。 对朱明流出的魔剑深恶痛绝，立誓要「搜猎魔剑，尽数断绝」。
+- id: 1222
+  key: lingsha
+  name: 灵砂
+  star: 5
+  elem: 火
+  allegiance: 仙舟「罗浮」
+  type: 丰饶
+  desc: 仙舟「罗浮」丹鼎司新任司鼎，伶俐秀慧的持明医士。 嗅觉敏锐，常以此识别病症，并以香薰安定他人心神。 善于处理混杂的人际关系，即使心底暴躁如雷，表面上依旧滴水不漏。
+- id: 1223
+  key: moze
+  name: 貊泽
+  star: 4
+  elem: 雷
+  allegiance: 仙舟「曜青」
+  type: 巡猎
+  desc: 仙舟「曜青」的影卫，沉默寡言、独来独往。 专司情报与不见光的事务，鲜少在人前露面。貊泽显露锋芒时，便是敌人的死期。 刺杀手段丰富，对整洁和条理有超乎寻常的执着。
+- id: 1224
+  key: mar7th
+  name: 三月七·巡猎
+  star: 4
+  elem: 虚数
+  allegiance: 星穹列车
+  type: 巡猎
+  desc: 换上仙舟服饰的三月七，执剑的武侠少女。向云璃与彦卿拜师学艺，为在仙舟留下更多美好的「回忆」而跃跃欲试。
+- id: 1225
+  key: fugue
+  name: 忘归人
+  star: 5
+  elem: 火
+  allegiance: 仙舟「罗浮」
+  type: 虚无
+  desc: 八面玲珑的狐人少女，样貌、名字、身份皆被人夺去。 命运为她留下一线生机，而「毁灭」的烙印仍在蠢蠢欲动。 历经生死、重获新生的忘归人，何时才能返乡？
+- id: 1301
+  key: gallagher
+  name: 加拉赫
+  star: 4
+  elem: 火
+  allegiance: 匹诺康尼
+  type: 丰饶
+  desc: 匹诺康尼猎犬家系的治安官，对来访宾客以礼相待，但保有戒心。似乎有着诸多往事，却从不主动提及。
+- id: 1302
+  key: argenti
+  name: 银枝
+  star: 5
+  elem: 物理
+  allegiance: 纯美骑士团
+  type: 智识
+  desc: 「纯美骑士团」的古典骑士，虔诚地仰慕着已失踪的「纯美」星神伊德莉拉。 为人正直、光明磊落，于宇宙中漫游，宣扬伊德莉拉的美名。
+- id: 1303
+  key: ruanmei
+  name: 阮•梅
+  star: 5
+  elem: 冰
+  allegiance: 空间站「黑塔」
+  type: 同谐
+  desc: 天才俱乐部会员，生命科学领域专家，与黑塔等人联手研发模拟宇宙。
+- id: 1304
+  key: aventurine
+  name: 砂金
+  star: 5
+  elem: 虚数
+  allegiance: 星际和平公司
+  type: 存护
+  desc: 星际和平公司「战略投资部」的高层成员。 风险爱好者，常面带笑容，真心却难以揣测。
+- id: 1305
+  key: drratio
+  name: 真理医生
+  star: 5
+  elem: 虚数
+  allegiance: 博识学会
+  type: 巡猎
+  desc: 博识学会学者。 性情古怪、言辞刻薄却又风度偏偏。 奇异石膏头雕下的面容似乎出人意料的俊美。
+- id: 1306
+  key: sparkle
+  name: 花火
+  star: 5
+  elem: 量子
+  allegiance: 假面愚者
+  type: 同谐
+  desc: 「假面愚者」的成员之一，难以捉摸，不择手段。 危险的戏剧大师，沉迷于扮演，身怀千张假面，能化万种面相。 财富、地位、权利…于花火而言都不重要，能让她出手的，唯有「乐趣」。
+- id: 1307
+  key: blackswan
+  name: 黑天鹅
+  star: 5
+  elem: 风
+  allegiance: 流光忆庭
+  type: 虚无
+  desc: 流光忆庭的忆者，慵懒神秘的占卜师。 耐心聆听他人「记忆」，诸般命运尽在掌握。
+- id: 1308
+  key: acheron
+  name: 黄泉
+  star: 5
+  elem: 雷
+  allegiance: 巡海游侠
+  type: 虚无
+  desc: 自称「巡海游侠」的旅人，本名不详。 身佩一柄长刀，独行银河。
+- id: 1309
+  key: robin
+  name: 知更鸟
+  star: 5
+  elem: 物理
+  allegiance: 匹诺康尼
+  type: 同谐
+  desc: 出生于匹诺康尼，闻名银河的天环族歌者，举止从容优雅的少女。 此次受家族宴请回到故乡，在「谐乐大典」为众宾献歌一曲。 可以依靠「同谐」的力量传递歌声，在歌迷乃至万界生灵之中展现「共鸣」。
+- id: 1310
+  key: sam
+  name: 流萤
+  star: 5
+  elem: 火
+  allegiance: 星核猎手
+  type: 毁灭
+  desc: 星核猎手成员，身着机械装甲「萨姆」战斗。忠于任务，性格坚强。 作为战胜虫群的兵器而诞生，其生长速度异于常人，但生命非常短暂。 为了找寻「生」的机会而加入星核猎手，找寻违抗命运的方式。
+- id: 1312
+  key: misha
+  name: 米沙
+  star: 4
+  elem: 冰
+  allegiance: 匹诺康尼
+  type: 毁灭
+  desc: 匹诺康尼酒店的门童侍应，乖巧懂事的小男孩。 对无名客抱有极大憧憬，梦想有朝一日自己也能踏上旅途。
+- id: 1313
+  key: sunday
+  name: 星期日
+  star: 5
+  elem: 虚数
+  allegiance: 匹诺康尼
+  type: 同谐
+  desc: 「秩序」的美梦已然消散，但仍有人不会放下初愿。 ——折翼坠地的旅人，他的脚步将迈向何方？
+- id: 1314
+  key: jade
+  name: 翡翠
+  star: 5
+  elem: 量子
+  allegiance: 星际和平公司
+  type: 智识
+  desc: 星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「典贷翡翠」。 冷艳优雅的放贷人，善于洞悉人心，有着名为「慈玉典押」的个人爱好。 愿意为获取高价值的事物耐心等待，也擅长从看似一无所有的客户身上榨取价值。
+- id: 1315
+  key: boothill
+  name: 波提欧
+  star: 5
+  elem: 物理
+  allegiance: 巡海游侠
+  type: 巡猎
+  desc: 浪迹银河的改造人牛仔，极度乐观、放荡不羁。 身为「巡海游侠」的一员，为惩奸除恶，可以无所不用其极—— 高调行事的背后，渴望以此引起复仇对象「星际和平公司」的注意。
+- id: '1317'
+  key: rappa
+  name: 乱破
+  star: 5
+  elem: 虚数
+  allegiance: 巡海游侠
+  type: 智识
+  desc: 如丑时三刻的闪光弹一般现身在匹诺康尼，以忍者自居，将世间一切归因于「忍法」的奇妙少女。 贯彻吟诵忍•真言、绘制缭乱•忍符、修习忍•法帖的「忍•道」——即说唱，涂鸦，漫画——苦炼自身意志，驰骋星间行侠仗义。
+    身为「巡海游侠」的一员，始终追猎着名为「御猿•邪忍」的恶党，直至银河尽头。
+- id: 1401
+  key: theherta
+  name: 大黑塔
+  star: 5
+  elem: 冰
+  allegiance: 空间站「黑塔」
+  type: 智识
+  desc: 尊贵的「天才俱乐部」#83，人类，女性，年轻，貌美，可爱。 传说她隐居在银河边境，几乎不踏出其间，想必此次现身—— 一定是为了某个不得不亲自出马的问题吧？
+- id: 1402
+  key: aglaea
+  name: 阿格莱雅
+  star: 5
+  elem: 雷
+  allegiance: 翁法罗斯
+  type: 记忆
+  desc: 在那黎明照拂的圣城，织者抚弄金丝，连缀命运。 背负「浪漫」火种的黄金裔，召集世间英雄，带领他们再度踏上漫长的征程 ——击落众神，归还神火，予以几近覆灭的翁法罗斯新生。
+- id: 1403
+  key: tribbie
+  name: 缇宝
+  star: 5
+  elem: 量子
+  allegiance: 翁法罗斯
+  type: 同谐
+  desc: 自那三相神谕垂怜的圣地，信使分作千身，启程远行。 雅努萨波利斯的圣女，缇里西庇俄丝，窃夺「门径」火种的黄金裔，为众生奔走，令救世的讯息晓喻大地 ——找寻那流淌黄金神血的人子，冲破世间至暗，去往星月满天的明日。
+- id: 1404
+  key: mydei
+  name: 万敌
+  star: 5
+  elem: 虚数
+  allegiance: 翁法罗斯
+  type: 毁灭
+  desc: 那沉入迷雾的悬锋，纷乱与战争之城！它的王室流着弑亲的血脉，它的神明以灾厄为名。 不死的迈德漠斯，离群的狮子，逐猎「纷争」火种的黄金裔。忍受万死，浴血还乡，孤身背负疯狂的宿命
+    ——弑王成王，弑神登神。征战的铁蹄踏遍荒野，终归要沾上故乡的血。
+- id: 1405
+  key: anaxa
+  name: 那刻夏
+  star: 5
+  elem: 风
+  allegiance: 翁法罗斯
+  type: 智识
+  desc: 神悟树庭，滋养知识的学府，诞育哲人的摇床。 但渎神的阿那克萨戈拉斯，诘问「理性」火种的黄金裔，试问：你甘愿身负恶名，也要违逆预言，将怀疑的枝杈刺入智慧的圣树？
+    ——「可笑。这世界遍地虚假，唯有我才是真实。」
+- id: 1406
+  key: cipher
+  name: 赛飞儿
+  star: 5
+  elem: 量子
+  allegiance: 翁法罗斯
+  type: 虚无
+  desc: 失落的盗寇之都多洛斯，三百侠盗纵情游戏，横行无忌。 捷足的贼星赛法利娅，戏弄「诡计」火种的黄金裔，奔走吧。愿你的谎言随风同行，吹遍此世大地—— 「呵，还想诓我？没门！」
+- id: 1407
+  key: castorice
+  name: 遐蝶
+  star: 5
+  elem: 量子
+  allegiance: 翁法罗斯
+  type: 记忆
+  desc: 那敬爱死亡的国度，终日飘雪的哀地里亚，今日已沉入甘甜的酣眠。 冥河的女儿遐蝶，寻索「死亡」火种的黄金裔，启程吧。呵护世间魂灵的恸哭，拥抱命运的孤独
+    ——生死皆为旅途，当蝴蝶停落枝头，那凋零的又将新生。
+- id: 1408
+  key: phainon
+  name: 白厄
+  star: 5
+  elem: 物理
+  allegiance: 翁法罗斯
+  type: 毁灭
+  desc: 哀丽秘榭，遗世独立的边陲村落，如今只余晦涩的传说。无名的英雄卡厄斯兰那，容纳「负世」火种的黄金裔，铭记全世的理想，背负万众的命运，为新世界带来第一缕曙光——「但倘若黎明从不存在，就让怒火燃尽此身，化作明日的烈阳！」
+- id: 1409
+  key: hyacine
+  name: 风堇
+  star: 5
+  elem: 风
+  allegiance: 翁法罗斯
+  type: 记忆
+  desc: 云间城邦随岁月离析，昏光庭院再度敞开门扉，为永夜捎来微光。 医师雅辛忒丝，守望「天空」火种的黄金裔。继承先祖的意志，缝补破裂的晨昏 ——愿虹光洒落，仇怨消融，黎明重回大地。
+- id: 1410
+  key: hysilens
+  name: 海瑟音
+  star: 5
+  elem: 物理
+  allegiance: 翁法罗斯
+  type: 虚无
+  desc: 斯缇科西亚，醉与梦的海滨之城，旧日的歌声仍在浮浪间回荡。大海的女儿海列屈拉，清洗「海洋」火种的黄金裔，驱散污浊的暗流，为天外的英雄奏响不醉不归的盛宴——散场之时未到，纵然希望如泡沫般易碎，浪花也将一往无前。
+- id: 1412
+  key: cerydra
+  name: 刻律德菈
+  star: 5
+  elem: 风
+  allegiance: 翁法罗斯
+  type: 同谐
+  desc: 北境帝国，失落的王朝，寒冷的疆土燃烧着征伐的野心。君主刻律德菈，执握「律法」火种的黄金裔，布局设子，与神相弈，审判异心的罪囚，为此世奠定逐火的基业——<i>「这绝非终点，翁法罗斯的征途，当是银河群星！」</i>
+- id: 1413
+  key: evernight
+  name: 长夜月
+  star: 5
+  elem: 冰
+  allegiance: 翁法罗斯
+  type: 记忆
+  desc: 与世相隔的忆域，烛火映出过往，于迷雾中悄然熄去。自那影中而来的记忆之子长夜月，隐匿「岁月」火种的黄金裔，掀起「忘却」的浪潮，守护镜中人的心愿——<i>「别担心，我会为你看护『开拓』的前路…不惜任何代价♭」</i>
+- id: 1414
+  key: danhengpt
+  name: 丹恒•腾荒
+  star: 5
+  elem: 物理
+  allegiance: 翁法罗斯
+  type: 存护
+  desc: 吉奥里亚的胸膛，伏龙的身躯支撑破碎的大地，忍耐千年苦痛。无名客丹恒，捍卫「大地」火种的黄金裔，扶八荒之将倾，将地上生灵送往远方的天地——百川归海，群山合鸣，不朽的道途将绵延万里。
+- id: 1415
+  key: cyrene
+  name: 昔涟
+  star: 5
+  elem: 冰
+  allegiance: 翁法罗斯
+  type: 记忆
+  desc: 流星划过夜空，生命的长河荡起涟漪，闪烁十三种光彩。哀丽秘榭的女儿，哺育「真我」的黄金裔，栽下记忆的种子，让往昔的花朵在明日绽放——<i>「然后，一起写下不同以往的诗篇吧♪」</i>
+- id: 8001
+  key: Trailblazer
+  name: 穹·毁灭
+  star: 5
+  elem: 物理
+  allegiance: 星穹列车
+  type: 毁灭
+  desc: 登上星穹列车的少年。为了消除星核带来的危机，选择与星穹列车同行。
+- id: 8002
+  key: Trailblazer
+  name: 星·毁灭
+  star: 5
+  elem: 物理
+  allegiance: 星穹列车
+  type: 毁灭
+  desc: 登上星穹列车的少女。为了消除星核带来的危机，选择与星穹列车同行。
+- id: 8003
+  key: Trailblazer
+  name: 穹·存护
+  star: 5
+  elem: 火
+  allegiance: 星穹列车
+  type: 存护
+  desc: 登上星穹列车的少年。为了消除星核带来的危机，选择与星穹列车同行。
+- id: 8004
+  key: Trailblazer
+  name: 星·存护
+  star: 5
+  elem: 火
+  allegiance: 星穹列车
+  type: 存护
+  desc: 登上星穹列车的少女。为了消除星核带来的危机，选择与星穹列车同行。
+- id: 8005
+  key: Trailblazer
+  name: 穹·同谐
+  star: 5
+  elem: 虚数
+  allegiance: 星穹列车
+  type: 同谐
+  desc: 登上星穹列车的少年。为了消除星核带来的危机，选择与星穹列车同行。
+- id: 8006
+  key: Trailblazer
+  name: 星·同谐
+  star: 5
+  elem: 虚数
+  allegiance: 星穹列车
+  type: 同谐
+  desc: 登上星穹列车的少女。为了消除星核带来的危机，选择与星穹列车同行。
+- id: 8007
+  key: Trailblazer
+  name: 穹·记忆
+  star: 5
+  elem: 冰
+  allegiance: 星穹列车
+  type: 记忆
+  desc: 登上星穹列车的少年。为了消除星核带来的危机，选择与星穹列车同行。
+- id: 8008
+  key: Trailblazer
+  name: 星·记忆
+  star: 5
+  elem: 冰
+  allegiance: 星穹列车
+  type: 记忆
+  desc: 登上星穹列车的少女。为了消除星核带来的危机，选择与星穹列车同行。

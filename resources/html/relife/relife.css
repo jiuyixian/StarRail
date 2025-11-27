@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'tttgbnumber';
+    src: url("../../../../../resources/font/tttgbnumber.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "YS";
+    src: url("../../../../../resources/font/HYWH-65W.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NZBZ";
+    src: url("../../../../../resources/font/NZBZ.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SYST";
+    src: url("../../../../../resources/font/SHCN-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 重置默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+/* 页面主体样式 */
+body {
+    transform-origin: 0 0;
+    position: absolute;
+}
+
+/* 容器样式 */
+.container {
+    width: 1630px;
+    height: 777px;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 容器背景模糊效果 */
+.container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+}
+
+/* 背景图层样式 */
+.background-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /* 最底层 */
+}
+
+.background-wrapper .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 信息背景渐变样式 */
+.info-bg {
+    background: linear-gradient(to right,
+            rgba(255, 255, 255, 0),
+            rgba(59, 64, 86, 100),
+            rgba(59, 64, 86, 100),
+            rgba(255, 255, 255, 0));
+    font-size: 65px;
+    text-align: center;
+    position: fixed;
+    width: 650px;
+    left: 88px;
+    z-index: 10;
+}
+
+/* 通用文本描边样式 */
+.common-text{
+    -webkit-text-stroke: 1px #FFFFFF;
+    top: 8px;
+    left: 85px;
+}
+
+/* 用户信息区域样式 */
+.info-user {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    /* 用户信息层级更高 */
+}
+
+.info-user .info-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.info-user .info-name {
+    font-size: 65px;
+    margin-left: 40px;
+    font-family: NZBZ, YS, sans-serif;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+.info-user .info-id {
+    font-size: 48px;
+    margin-left: 40px;
+    font-family: NZBZ, YS, sans-serif;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+/* 标题信息样式 */
+.info-title {
+    top: 200px;
+    font-family: NZBZ, YS, sans-serif;
+    z-index: 10;
+    /* 标题信息层级更高 */
+}
+
+/* 命途信息样式 */
+.info-hang1 {
+    top: 420px;
+    font-size: 38px;
+    font-family: SYST, sans-serif;
+    z-index: 10;
+    /* 信息层级更高 */
+}
+
+/* 阵营信息样式 */
+.info-hang2 {
+    top: 500px;
+    font-size: 38px;
+    font-family: SYST, sans-serif;
+    z-index: 10;
+    /* 信息层级更高 */
+}
+
+/* 身份信息样式 */
+.info-hang3 {
+    top: 580px;
+    font-size: 30px;
+    font-family: SYST, sans-serif;
+    z-index: 10;
+    /* 信息层级更高 */
+}
+
+/* 角色名称样式 */
+.name {
+    font-size: 100px;
+    top: 380px;
+    left: 173px;
+    -webkit-text-stroke: 1px #FFFFFF;
+    z-index: 10;
+    /* 名称层级更高 */
+}
+
+/* 版权标识样式 */
+.logo {
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+    color: #ff0000;
+    font-size: 24px;
+    font-family: tttgbnumber, serif;
+    z-index: 1000;
+    /* logo保持最高层级 */
+}
+
+/* 角色立绘容器样式 */
+.character {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transform: translateX(25%);
+    z-index: 5;
+    /* 立绘层级较高 */
+}
+
+.character img {
+    height: 800px;
+}
+
+/* 阵营图标样式 */
+.info-allegiance {
+        background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 100),
+        rgba(255, 255, 255, 100),
+        rgba(255, 255, 255, 0)
+    );
+    width: 206px;
+    /* 图片宽度 */
+    height: 213px;
+    /* 图片高度 */
+    position: absolute;
+    /* 绝对定位 */
+    left: 10px;
+    /* 距离左边10像素 */
+    top: 372px;
+    /* 距离顶部372像素 */
+    z-index: 15;
+    /* 确保图标在上层 */
+}
+
+.allegiance-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

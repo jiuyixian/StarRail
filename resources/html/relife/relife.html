@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link rel="shortcut icon" href="#" />
+  <link rel="stylesheet" type="text/css" href="{{pluResPath}}html/relife/relife.css" />
+  <title>转生</title>
+</head>
+
+<body>
+  <!-- 主容器 -->
+  <div class="container" id="container">
+    <!-- 背景图层 -->
+    <div class="background-wrapper">
+      <img src="{{pluResPath}}img/bg/bg.png" class="background-image" />
+    </div>
+
+    <!-- 角色立绘 -->
+    <div class="character">
+      <img src="{{miaoResPath}}{{imgs.splash}}" />
+    </div>
+
+    <!-- 用户信息区域 -->
+    <div class="info-user" style="color: {{color}}">
+      <img class="info-img" src="{{userIcon}}" />
+      <div>
+        <p class="info-name common-text">{{nickname}}</p>
+        <div class="info-id">{{userId}}</div>
+      </div>
+    </div>
+
+    <!-- 转生标题区域 -->
+    <div class="info-bg info-title" style="color: {{color}}">
+      <p class="common-text">恭喜你转生成了</p>
+      <p class="name">{{name}}</p>
+    </div>
+
+    <!-- 阵营图标区域 -->
+    <div class="info-allegiance" style="display: block" onerror="this.style.display='none';">
+      <img class="allegiance-icon" src="{{pluResPath}}img/allegiance/{{allegiance}}.png" alt="Allegiance Icon"
+        onerror="this.parentElement.style.display='none';">
+    </div>
+
+    <!-- 角色详细信息区域 -->
+    <div style="color: {{color}}">
+      <div class="info-bg info-hang1">命途:{{type}}</div>
+      <div class="info-bg info-hang2">阵营:{{allegiance}}</div>
+      <div class="info-bg info-hang3">身份:{{desc}}</div>
+    </div>
+
+    <!-- 版权标识 -->
+    <div class="logo">Created By Yunzai-Bot & Flower-plugin</div>
+  </div>
+</body>
+
+</html>
